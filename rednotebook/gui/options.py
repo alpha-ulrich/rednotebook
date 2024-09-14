@@ -381,7 +381,7 @@ class OptionsManager:
             # Apply some options
             self.main_window.cloud.update_lists()
             self.main_window.cloud.update(force_update=True)
-            self.main_window.set_autoIndent()
+            self.main_window.set_auto_indent()
 
             visible = self.config.read("closeToTray") == 1
             self.main_window.tray_icon.set_visible(visible)
